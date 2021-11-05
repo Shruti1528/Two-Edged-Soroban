@@ -119,3 +119,32 @@ input:focus {
     font-size: 2vw;
   }
 }
+
+@media (max-width: 495px) {
+  body {
+    background: url("./smallScreen.jpg");
+    background-size: cover;
+  }
+  .inner-container {
+    padding: 6vw;
+  }
+  .title {
+    font-size: 5vw;
+    font-family: "Irish Grover", cursive;
+    color: white;
+    margin-bottom: 2vw;
+  }
+
+  input {
+    font-size: 3vw;
+    margin: 1.2vw 0vw 1.2vw 0vw;
+  }
+
+  select {
+    font-size: 3vw;
+  }
+
+  .btn {
+    font-size: 3vw;
+  }
+}

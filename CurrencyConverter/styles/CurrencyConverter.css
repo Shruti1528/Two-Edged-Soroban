@@ -37,3 +37,56 @@ body {
   text-align: center;
   display: flex;
 }
+
+.box div {
+  width: 100%;
+  text-align: center;
+}
+
+select {
+  width: 95%;
+  color: black;
+  font-size: 1.2vw;
+  font-family: "Bree Serif", serif;
+  cursor: pointer;
+  background: #c1c8e4;
+  padding: 1vw;
+  border-radius: 0.5vw;
+  border: none;
+}
+
+input {
+  width: 95%;
+  font-family: "Quattrocento", serif;
+  font-size: 1.2vw;
+  margin: 1.2vw 0vw 1.2vw 0vw;
+  border: none;
+  border-bottom: 0.2vw solid transparent;
+  background: #edeef7;
+  outline: none;
+  padding: 1vw;
+  transition: 0.5s ease-in;
+}
+
+input:focus {
+  border-bottom: 0.2vw solid rgb(64, 25, 204);
+}
+
+.btn {
+  width: 98%;
+  padding: 1vw;
+  background-color: rgb(255, 255, 255, 0.5);
+  margin-top: 0.2vw;
+  border: 0.1vw solid rgb(58, 142, 199);
+  border-radius: 3vw;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  color: black;
+  font-size: 1.2vw;
+}
+
+.btn:hover {
+  margin-top: 0.1vw;
+  box-shadow: 0 0 1vw 0 rgb(58, 142, 199) inset, 0 0 2vw 0.2vw rgb(58, 142, 199);
+  border: 0.2vw solid rgb(58, 142, 199);
+}

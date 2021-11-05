@@ -90,3 +90,32 @@ input:focus {
   box-shadow: 0 0 1vw 0 rgb(58, 142, 199) inset, 0 0 2vw 0.2vw rgb(58, 142, 199);
   border: 0.2vw solid rgb(58, 142, 199);
 }
+
+@media (max-width: 765px) {
+  body {
+    background: url("./mediumScreen.jpg");
+    background-size: cover;
+  }
+  .inner-container {
+    padding: 8vw;
+  }
+  .title {
+    font-size: 4vw;
+    font-family: "Irish Grover", cursive;
+    color: white;
+    margin-bottom: 2vw;
+  }
+
+  input {
+    font-size: 2vw;
+    margin: 1.2vw 0vw 1.2vw 0vw;
+  }
+
+  select {
+    font-size: 2vw;
+  }
+
+  .btn {
+    font-size: 2vw;
+  }
+}

@@ -16,3 +16,24 @@ body {
   width: 60vw;
   height: 60%;
 }
+
+.inner-container {
+  background-color: rgba(71, 156, 189, 0.8);
+  box-shadow: 0.5vw 0.5vw 0.5vw rgb(58, 142, 199);
+  border-radius: 3vw;
+  padding: 8vw;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.title {
+  font-size: 3vw;
+  font-family: "Irish Grover", cursive;
+  color: white;
+  margin-bottom: 2vw;
+}
+.container .box {
+  width: 100%;
+  text-align: center;
+  display: flex;
+}

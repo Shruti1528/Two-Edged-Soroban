@@ -16,3 +16,15 @@ function display(data) {
     select[1].innerHTML += `<option value="${entries[i][0]}">${entries[i][0]}</option>`;
   }
 }
+
+btn.addEventListener("click", () => {
+  let currency1 = select[0].value;
+  let currency2 = select[1].value;
+  let value = num.value;
+
+  if (currency1 != currency2) {
+    convert(currency1, currency2, value);
+  } else {
+    alert("Choose Diffrent Currency");
+  }
+});

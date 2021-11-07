@@ -265,3 +265,15 @@ function createCalculatorButtons() {
 }
 
 createCalculatorButtons();
+
+let RADIAN = true;
+
+const radianButton = document.getElementById("rad");
+const degreeButton = document.getElementById("deg");
+
+radianButton.classList.add("active-angle");
+
+function angleToggler() {
+  radianButton.classList.toggle("active-angle");
+  degreeButton.classList.toggle("active-angle");
+}

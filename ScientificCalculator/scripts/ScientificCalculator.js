@@ -242,3 +242,26 @@ let calculatorButtons = [
     type: "operator",
   },
 ];
+
+let data = {
+  operation: [],
+  formula: [],
+};
+
+function createCalculatorButtons() {
+  const buttonsPerRow = 8;
+  let addedButtons = 0;
+
+  calculatorButtons.forEach((button) => {
+    if (addedButtons % buttonsPerRow == 0) {
+      inputElement.innerHTML += `<div class="row"></div>`;
+    }
+
+    const row = document.querySelector(".row:last-child");
+    row.innerHTML += `<button id="${button.name}">${button.symbol}</button>`;
+
+    addedButtons++;
+  });
+}
+
+createCalculatorButtons();

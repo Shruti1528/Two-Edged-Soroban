@@ -73,3 +73,57 @@
     font-size: 20px;
     border-radius: 20px;
 }
+@media (max-width: 765px)
+{
+    .bag
+    {
+        background-image: url("./tab2048.jpg");
+        background-size: cover;
+        font-size: 50px;
+    }
+    #restart
+    {
+        width:120px;
+        height: 65px;
+        position:fixed;
+    }
+    .grid
+    {
+        width: 318px;
+        height: 318px;
+
+    }
+    .grid div
+    {
+        width:75px;
+        height: 75px;
+        font-size: 50px;
+    }
+}
+@media (max-width: 495px)
+{
+    .bag
+    {
+        background-image:url("./mob2048.jfif");
+        background-size:cover;
+    }
+    #restart
+    {
+        width:80px;
+        height: 50px;
+        bottom:10px;
+        position: absolute;
+        font-size:10px;
+    }
+    .grid
+    {
+        width:218px;
+        height: 218px;
+    }
+    .grid div 
+    {
+        width:50px;
+        height: 50px;
+        font-size: 40px;
+    }
+}
